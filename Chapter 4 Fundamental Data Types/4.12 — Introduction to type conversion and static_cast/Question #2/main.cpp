@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cstdint>
+
+int main()
+{
+  std::cout << "Enter a single character: \n";
+  char c{};
+  std::cin >> c;
+
+  std::cout << "You entered \'" << c << "\' which has ASCII code " << (int)c << ".\n";
+
+  return 0;
+}
